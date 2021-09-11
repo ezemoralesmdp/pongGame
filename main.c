@@ -20,28 +20,28 @@ int main() {
 
     srand(time(NULL));
 
-    SetConsoleTitle("PONG by EL S - UTN - MDP");
+    SetConsoleTitle("PONG by EL S");
 
     system("color 0C");
 
-    //Tama駉 de la consola
+    //Tama帽o de la consola
     system("MODE 75, 25");
 
-    int ballX, ballY, strPlayer, endPlayer, strIA, endIA; //Variables de posici髇
-    int modX, modY, modIA; //Variables de modificaci髇
+    int ballX, ballY, strPlayer, endPlayer, strIA, endIA; //Variables de posici贸n
+    int modX, modY, modIA; //Variables de modificaci贸n
 
     char field[V][H];
 
     //--------------------- [ POSICION ] ---------------------
-    //Ubicaci髇 pelota
+    //Ubicaci贸n pelota
     ballX = 37;
     ballY = (rand() % 10);
 
-    //Ubicaci髇 jugador
+    //Ubicaci贸n jugador
     strPlayer = 8;
     endPlayer = 12;
 
-    //Ubicaci髇 IA
+    //Ubicaci贸n IA
     strIA = 5;
     endIA = 18;
 
