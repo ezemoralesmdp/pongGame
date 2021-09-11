@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1631332018 source:c:\users\administrador\desktop\c\pong\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
