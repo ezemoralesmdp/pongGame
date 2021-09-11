@@ -20,7 +20,7 @@ int main() {
 
     srand(time(NULL));
 
-    SetConsoleTitle("PONG by Ezequiel Morales");
+    SetConsoleTitle("PONG by EL S - UTN");
 
     system("color 0C");
 
